@@ -40,7 +40,7 @@ Within GDB, you can identify that the program uses `fgets` for input, and a func
 The function performs a manual comparison equivalent to `strncmp` with the string `dat_wil`:
 
 ```assembly
-(gdb) disas verify_user_name
+(gdb) disass verify_user_name
 0x0804846c <+8>: mov    DWORD PTR [esp],0x8048690    <--- "verifying username....\n"
 0x08048473 <+15>: call   0x8048380 <puts@plt>
 0x08048478 <+20>: mov    edx,0x804a040    <--- "dat_wil\n"
