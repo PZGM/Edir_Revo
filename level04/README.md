@@ -35,7 +35,7 @@ $ gdb -q ./level04
 (gdb) r
 Starting program: /home/users/level04/level04
 Give me some shellcode, k
-AAAABBBBCCCCDDDDEEEEFFFFGGGGHHHHIIIIJJJJKKKKLLLLMMMMNNNNOOOOPPPPQQQQRRRRSSSSTTTTUUUUVVVVWWWWXXXXYYYYZZZZaaaabbbbccccddddeeeeffffgggghhhhiiiijjjjkkkkllllmmmmnnnnooooppppqqqqrrrrssssttttuuuuvvvvwwwwxxxxyyyyzzzz
+Aa0Aa1Aa2Aa3Aa4Aa5Aa6Aa7Aa8Aa9Ab0Ab1Ab2Ab3Ab4Ab5Ab6Ab7Ab8Ab9Ac0Ac1Ac2Ac3Ac4Ac5Ac6Ac7Ac8Ac9Ad0Ad1Ad2Ad3Ad4Ad5Ad6Ad7Ad8Ad9Ae0Ae1Ae2Ae3Ae4Ae5Ae6Ae7Ae8Ae9Af0Af1Af2Af3Af4Af5Af6Af7Af8Af9Ag0Ag1Ag2Ag3Ag4Ag5Ag
 ```
 
 The program segfaults, indicating control of EIP.
@@ -48,8 +48,8 @@ eax            0x0   0
 ...
 eip            0x6e6e6e6e  0x6e6e6e6e
 ```
-
-Using an offset-finding script reveals that EIP is overwritten at offset `156`.
+We need to determine the offset at which the buffer overflows with the help of https://wiremask.eu/tools/buffer-overflow-pattern-generator/?:
+We find that EIP is overwritten at offset `156`.
 
 ## Step 4: Ret2libc Attack
 
