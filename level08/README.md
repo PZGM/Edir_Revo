@@ -1,10 +1,6 @@
 
 # Level08 - Exploiting Relative Path Vulnerability to Access Protected File
 
-## Objective
-
-The goal of this challenge is to exploit a relative path vulnerability in the program to access a protected file.
-
 ## Step 1: Running the Program
 
 First, let's run the program to observe its behavior:

@@ -1,10 +1,6 @@
 
 # Level04 - Exploiting a Buffer Overflow with Ret2libc
 
-## Objective
-
-The goal of this challenge is to exploit a buffer overflow vulnerability in the program to execute a shell using a Ret2libc attack.
-
 ## Step 1: Running the Program
 
 First, let's run the program to observe its behavior:

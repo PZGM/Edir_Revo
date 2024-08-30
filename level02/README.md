@@ -1,10 +1,6 @@
 
 # Level02 - Exploiting Format String Vulnerability to Retrieve Hidden Password
 
-## Objective
-
-The goal of this challenge is to exploit a format string vulnerability in the program to retrieve the hidden password and gain access.
-
 ## Step 1: Running the Program
 
 First, let's run the program to observe its behavior:

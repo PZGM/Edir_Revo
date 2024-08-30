@@ -1,10 +1,6 @@
 
 # Level00 - Reverse Engineering a Password Check
 
-## Objective
-
-The goal of this challenge is to find the correct password required by the program to gain access and execute a shell.
-
 ## Step 1: Running the Program
 
 First, let's run the program to observe its behavior:

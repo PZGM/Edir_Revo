@@ -1,11 +1,7 @@
 
 # Level03 - Reversing a XOR-based Decryption to Find the Password
 
-## Objective
-
-The goal of this challenge is to reverse a XOR-based decryption function in the program to find the correct password and gain access.
-
-## Step 1: Running the Program
+# Step 1: Running the Program
 
 First, let's run the program to observe its behavior:
 

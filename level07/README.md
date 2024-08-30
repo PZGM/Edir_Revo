@@ -1,10 +1,6 @@
 
 # Level07 - Exploiting an Out-of-Bounds Array Access Vulnerability
 
-## Objective
-
-The goal of this challenge is to exploit an out-of-bounds array access vulnerability in the program to overwrite the instruction pointer (EIP) and execute a ret2libc attack.
-
 ## Step 1: Running the Program
 
 First, let's run the program to observe its behavior:

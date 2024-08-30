@@ -1,10 +1,6 @@
 
 # Level06 - Bypassing Authentication by Reading Memory
 
-## Objective
-
-The goal of this challenge is to bypass the authentication mechanism by reading the program's memory during execution, rather than reversing the complex hashing algorithm.
-
 ## Step 1: Running the Program
 
 First, let's run the program to observe its behavior:

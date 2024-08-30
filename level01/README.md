@@ -1,10 +1,6 @@
 
 # Level01 - Exploiting a Login Bypass with Buffer Overflow
 
-## Objective
-
-The goal of this challenge is to bypass the login check by exploiting a buffer overflow vulnerability to gain access and execute a shell.
-
 ## Step 1: Running the Program
 
 First, let's run the program to observe its behavior:

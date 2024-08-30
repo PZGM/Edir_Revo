@@ -1,10 +1,6 @@
 
 # Level05 - Exploiting Format String Vulnerability to Execute Shellcode
 
-## Objective
-
-The goal of this challenge is to exploit a format string vulnerability in the program to execute shellcode stored in an environment variable.
-
 ## Step 1: Running the Program
 
 First, let's run the program to observe its behavior:
