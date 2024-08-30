@@ -43,10 +43,10 @@ The program segfaults, indicating control of EIP.
 ### Finding the Offset
 
 ```bash
-(gdb) i r
-eax            0x0   0
-...
-eip            0x6e6e6e6e  0x6e6e6e6e
+(gdb) r
+Program received signal SIGSEGV, Segmentation fault.
+[Switching to process 2283]
+0x41326641 in ?? ()
 ```
 We need to determine the offset at which the buffer overflows with the help of https://wiremask.eu/tools/buffer-overflow-pattern-generator/?:
 We find that EIP is overwritten at offset `156`.
