@@ -75,15 +75,6 @@ Combine all the decoded strings to form the password:
 
 `Hh74RPnuQ9sa5JAEXgNWCqz7sXGnh5J5M9KfPg3H`
 
-## Step 5: Faster Extraction with Pwntools
-
-For efficiency, the password can be extracted using the Pwntools library in Python:
-
-```python
-from pwn import *
-print p64(0x756e505234376848) + p64(0x45414a3561733951) + p64(0x377a7143574e6758) + p64(0x354a35686e475873) + p64(0x48336750664b394d)
-```
-
 ## Summary
 
 - The program has a format string vulnerability that allows printing stack data.
